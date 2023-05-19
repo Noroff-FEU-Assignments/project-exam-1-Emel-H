@@ -1,0 +1,36 @@
+
+footer {
+    background-color: #DDE4D1;
+    color: white;
+    padding: 1%;
+    text-align: right;
+}
+
+footer img{
+    width: 4%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+
+footer input[type=text]{
+    width: 200px;
+    box-shadow: none;
+    display: inline-block;
+    border: none;
+    border-bottom: 1px solid white;
+    background-color: inherit;
+    color: white;
+    outline: none;
+}
+
+footer input[type=text]:focus{
+    box-shadow: 0 0 5px white;
+    border: 1px solid white;
+}
+
+footer input[type=submit] {
+    border: none;
+    background-color: white;
+    color: #DDE4D1;
+    margin-right: 5%;
+}

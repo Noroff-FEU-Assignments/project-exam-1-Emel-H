@@ -1,0 +1,33 @@
+header{
+    text-align: center;
+}
+
+main .form{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:left;
+}
+
+main input[type=text]{
+    width: 45%;
+    padding: 1%;
+    margin: 1%;
+    border-radius: 0.5rem;
+}
+
+main input[type=button]{
+    width: 20%;
+    padding: 1%;
+    margin: auto;
+    border-radius: 0.5rem;
+    color: #000;
+    background-color: #DDE4D1;
+}
+
+main textarea{
+    width: 94%;
+    height: 100px;
+    padding: 1%;
+    margin: 1%;
+    border-radius: 0.5rem;
+}

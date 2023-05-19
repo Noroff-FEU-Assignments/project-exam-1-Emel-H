@@ -1,0 +1,39 @@
+
+.horizontal {
+    display:grid;
+    grid-template-columns: 70% 30%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    vertical-align:middle;
+}
+.horizontal img{
+    width:80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.about{
+    background-color: white;
+}
+.about h3{
+    padding-left: 5%;
+}
+.horizontal a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding-left: 5%;
+}
+
+
+@media only screen and (max-width: 812px) {
+    .horizontal{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        width: 80%;
+        display:flex;
+        flex-direction: column;
+    }
+
+}

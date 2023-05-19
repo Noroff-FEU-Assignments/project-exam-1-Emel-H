@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="CSS/style.css">
+        <link rel="stylesheet" href="CSS/logo.css">
+        <link rel="stylesheet" href="CSS/nav.css">
+        <link rel="stylesheet" href="CSS/horizontal.css">
+        <link rel="stylesheet" href="CSS/posts.css">
+        <link rel="stylesheet" href="CSS/slider.css">
+        <link rel="stylesheet" href="CSS/footer.css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="blog by emel hassen about parenting, studying mother, motherhood, children, food">
+        <meta name="keywords" content="parenting, studying mother, motherhood, children, food, blog">
+        <meta name="author" content="Emel Jemal Hassen">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Emel Hassen Home-page</title>
+    </head>
+    <body>
+        <div class="logo">
+            <a href="index.html"><img src="Images/logo.png" aria-label="site logo" alt="Emel Hassen blog logo"></a>
+        </div>
+        <nav>
+            <input id="menu-toggle" type="checkbox">
+            <label aria-label="Navigation Menu" class='menu-button-container' for="menu-toggle">.
+                <div class="menu-button">
+                    <!-- this is empty because its the container where i draw the three bars for the hamburger menu -->
+                </div>
+            </label>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blogs.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <header>
+            
+            <div class="horizontal">
+                <div class="new-post">
+                    <h2>
+                        Newest blog
+                    </h2>
+                </div>
+                <div class="about">
+                    <h2>About me</h2>
+                    <a href="about.html">
+                    <img src="Images/about.png" alt="an image of Emel Hassen in about section">
+                    <p>Welcome to my blog!</p>
+                    <p>In this blog, I invite you to step into my world, where I navigate the delicate balance between motherhood, education, and work. Join me as I unravel the joys, challenges, and triumphs of juggling multiple roles.</p>
+                    </a>
+                </div>
+            </div>
+        </header>
+        <main>
+            <h2>Most Recent</h2>
+            <!-- this code is inspired by code from https://codepen.io/hershkirsh/pen/BXBprB-->
+            <div class="container">
+                <div class="slider-container">
+                  <span onclick="slideRight()" class="btn"></span>
+                    <div class="slider">
+                      
+                  </div>
+                  <span onclick="slideLeft()" class="btn"></span>
+                </div>
+            </div>
+            <div class="posts-container">
+
+            </div>
+            
+        </main>
+        <script src="js/latest-posts.js" type="module"></script>  
+        <script src="js/blogs-carosel.js" type="module"></script> 
+        <script src="js/slider.js"></script> 
+        <script src="js/blogs.js" type="module"></script>
+        
+        <footer>
+            <p>
+                Thank you for choosing to subscribing to my blog. <br>
+                I'm thrilled to have you on board!
+            </p>
+            <input type="text" placeholder="Email address" name="mail" required> 
+            <input type="submit" value="Subscribe">
+        </footer>
+    </body>
+</html>
