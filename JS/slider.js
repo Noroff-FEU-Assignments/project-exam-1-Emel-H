@@ -7,13 +7,12 @@ let buttons = document.getElementsByClassName("btn");
 let currentPosition = 0;
 let currentMargin = 0;
 let slidesPerPage = 4;
-let slidesCount = 1;
+let slidesCount = 2;
 
 function setParams() {
     if (currentPosition > slidesCount) {
         currentPosition -= slidesPerPage;
     };
-    currentMargin = - currentPosition * (100 / slidesPerPage);
     slider[0].style.marginLeft = currentMargin + '%';
     if (currentPosition === 0) {
         buttons[0].classList.add('inactive');

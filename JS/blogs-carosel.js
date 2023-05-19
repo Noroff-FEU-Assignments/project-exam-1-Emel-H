@@ -17,6 +17,7 @@ const sliderContainer = document.querySelector(".slider");
 const blockContainer = document.querySelector(".posts-container");
 
 function getAllSliderPostsInfo(){
+    sliderContainer.innerHTML = "";
     for(let i=0; i<jsonCaroselReturn.posts.length; i++){
         const slide = document.createElement("div");
         slide.classList = ["slide"];

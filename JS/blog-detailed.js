@@ -6,6 +6,7 @@ async function getPostInfo(id){
         const response = await fetch(wpUrl+id);
         const jsonReturn = await response.json();
         const container = document.querySelector(".detail-blog-container");
+        container.innerHTML = "";
         getDetailedPost(jsonReturn, container);
         
     }
@@ -37,6 +38,7 @@ function getDetailedPostDate(jsonReturn, container){
 function getDetailedPostTitle(jsonReturn, container){
     const postName = document.createElement("h1");
     postName.innerHTML = jsonReturn.title;
+    document.title = "EH Blog | " + jsonReturn.title;
     container.append(postName);
 }
 

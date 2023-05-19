@@ -16,6 +16,7 @@ const jsonReturn = await getPosts();
 const newPostContainer = document.querySelector(".new-post");
 
 function getlatestPost(){
+    newPostContainer.innerHTML = "<h2>Newest blog</h2>";
     const link = document.createElement("a");
     link.href = "blog-detailed.html?id="+(jsonReturn.posts[0].ID);
     const postCard = document.createElement("div");
