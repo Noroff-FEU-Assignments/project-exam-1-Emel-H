@@ -14,11 +14,15 @@ nav {
     height: 2%;
     width:100%;
     text-align: center;
+    padding-bottom: 1%;
     border-bottom: 1px solid #a76595;
 }
 nav img{
     background-color: white;
     width: 30%;
+}
+nav .homebutton{
+    display: none;
 }
 
 nav a {
@@ -34,8 +38,8 @@ nav a:hover{
     display: flex;
     flex-direction: row;
     list-style-type: none;
-    
     background-color: white;
+    padding: 0;
 }
 
 .menu > li {
@@ -95,6 +99,9 @@ nav a:hover{
 }
 
 @media only screen and (max-width: 812px) {
+nav .homebutton{
+    display: inherit;
+}
 
 nav a {
     color: rgb(0, 0, 0);
@@ -106,8 +113,6 @@ nav a:hover{
 }
 .menu-button-container {
     display: flex;
-    margin-right: auto;
-    margin-left: auto;
 }
 .menu {
     position: absolute;
@@ -115,7 +120,7 @@ nav a:hover{
     margin-top: 95px;
     left: 0;
     flex-direction: column;
-    width: 90%;
+    width: 100%;
     justify-content: center;
     align-items: center;
 
