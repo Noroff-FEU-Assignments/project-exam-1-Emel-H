@@ -13,6 +13,8 @@ main input[type=text]{
     padding: 1%;
     margin: 1%;
     border-radius: 0.5rem;
+    box-shadow: none;
+    outline: none;
     font-size: 1.3vw;
 }
 
@@ -33,6 +35,8 @@ main textarea{
     padding: 1%;
     margin: 1%;
     border-radius: 0.5rem;
+    box-shadow: none;
+    outline: none;
     font-size: 1.3vw;
 }
 @media only screen and (max-width: 812px) {

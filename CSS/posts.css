@@ -19,6 +19,8 @@ main input[type=text]{
     border-radius: 0.5rem;
     color: #000;
     background-color: #DDE4D1;
+    box-shadow: none;
+    outline: none;
     font-size: 1.3vw;
 }
 
