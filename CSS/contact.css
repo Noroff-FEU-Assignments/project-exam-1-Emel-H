@@ -13,6 +13,7 @@ main input[type=text]{
     padding: 1%;
     margin: 1%;
     border-radius: 0.5rem;
+    font-size: 1.3vw;
 }
 
 main input[type=button]{
@@ -22,6 +23,8 @@ main input[type=button]{
     border-radius: 0.5rem;
     color: #000;
     background-color: #DDE4D1;
+    cursor: pointer;
+    font-size: 1.3vw;
 }
 
 main textarea{
@@ -30,4 +33,19 @@ main textarea{
     padding: 1%;
     margin: 1%;
     border-radius: 0.5rem;
+    font-size: 1.3vw;
+}
+@media only screen and (max-width: 812px) {
+    main input[type=text]{
+        width: 94%;
+    }
+    main input[type=button] {
+        font-size: 3.1vw;
+    }
+    main input[type=text]{
+        font-size: 3.1vw;
+    }
+    main textarea{
+        font-size: 3.1vw;
+    }
 }

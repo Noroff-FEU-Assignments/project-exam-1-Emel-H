@@ -33,5 +33,8 @@
         display:flex;
         flex-direction: column;
     }
+    .new-post {
+        display:none;
+    }
 
 }

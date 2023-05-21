@@ -18,6 +18,7 @@ main input[type=button]{
     border-radius: 0.5rem;
     color: #000;
     background-color: #DDE4D1;
+    cursor: pointer;
 }
 
 .post-card {

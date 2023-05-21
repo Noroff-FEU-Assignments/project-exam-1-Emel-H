@@ -2,7 +2,7 @@
 
 
 .container {
-    width: 90vw;
+    width: 100%;
     display: grid ;
   }
 
@@ -47,14 +47,14 @@
   
   .slider-container .slider {
     display: flex;
-    width: 1110%;
+    width: 300%;
     height: 100%;
     transition: all .9s;
   }
   
   .slider-container .slider .slide {
     display: grid;
-    width: calc(2.5% - 20px); 
+    width: 25%; 
   }
 
   .slider a{
@@ -67,14 +67,13 @@
     .slider-container{
         display:none;
     }
+
     .posts-container{
       display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+      flex-wrap: wrap;
+      justify-content: center;
     }
-    .about{
-      display:none
-    }
+    
   
   }
   

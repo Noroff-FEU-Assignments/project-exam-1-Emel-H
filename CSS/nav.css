@@ -3,16 +3,22 @@
 /* code taken from https://alvarotrigo.com/blog/hamburger-menu-css/ for use of hamburger menu */
 
 nav {
-    position:sticky; 
+    position:sticky;
+    top: 0; 
     z-index: 1;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
     background-color: white;
-    height: 50px;
-    padding-top: 3px;
-    padding-bottom: 3px;
+    height: 2%;
+    width:100%;
+    text-align: center;
+    border-bottom: 1px solid #a76595;
+}
+nav img{
+    background-color: white;
+    width: 30%;
 }
 
 nav a {
@@ -22,17 +28,14 @@ nav a {
     font-size: large;
 }
 nav a:hover{
-    color: #FFCBF1;
+    color: #a76595;
 }
 .menu {
     display: flex;
     flex-direction: row;
     list-style-type: none;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 0;
-    border-bottom: 1px solid #FFCBF1;
     
+    background-color: white;
 }
 
 .menu > li {
@@ -59,7 +62,7 @@ nav a:hover{
 .menu-button::before,
 .menu-button::after {
     display: block;
-    background-color: #FFCBF1;
+    background-color: black;
     position: absolute;
     height: 4px;
     width: 30px;
@@ -106,7 +109,7 @@ nav a {
     font-family: 'Poppins';
 }
 nav a:hover{
-    color: #FFCBF1;
+    color: #a76595;
 }
 .menu-button-container {
     display: flex;
@@ -146,6 +149,6 @@ nav a:hover{
     background-color:#F1F0F0;
 }
 .menu > li:not(:last-child) {
-    border-bottom: 1px solid #FFCBF1;
+    border-bottom: 1px solid  #483643;
 }
 }

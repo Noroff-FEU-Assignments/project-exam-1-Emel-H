@@ -31,7 +31,7 @@ function getDetailedPostImage(jsonReturn, container){
 
 function getDetailedPostDate(jsonReturn, container){
     const postDate = document.createElement("h3");
-    postDate.innerHTML = jsonReturn.date;
+    postDate.innerHTML = new Date(jsonReturn.date).toLocaleDateString("en-UK");
     container.append(postDate);
 }
 
@@ -63,7 +63,7 @@ async function modalImages(){
     const imageNodes = document.getElementsByTagName('img');
     const modalImg = document.getElementById("img01");
 
-    for (let i=1; i<imageNodes.length-1; i++)
+    for (let i=1; i<imageNodes.length-4; i++)
     {          
         imageNodes[i].addEventListener('click', function() {
             imgonclick(this.src);
@@ -71,13 +71,13 @@ async function modalImages(){
     }
 
     function imgonclick(imagesrc){
-    modal.style.display = "block";
-    modalImg.src = imagesrc;
+        modal.style.display = "block";
+        modalImg.src = imagesrc;
     }
 
     // When the user clicks on <span> (x), close the modal
     span.onclick = function() { 
-    modal.style.display = "none";
+        modal.style.display = "none";
     }
 }
 

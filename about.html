@@ -2,7 +2,6 @@
 <html lang="en">
     <head>
         <link rel="stylesheet" href="CSS/style.css">
-        <link rel="stylesheet" href="CSS/logo.css">
         <link rel="stylesheet" href="CSS/nav.css">
         <link rel="stylesheet" href="CSS/aboutme.css">
         <link rel="stylesheet" href="CSS/footer.css">
@@ -12,7 +11,7 @@
         <meta name="keywords" content="parenting, studying mother, motherhood, children, food, blog">
         <meta name="author" content="Emel Jemal Hassen">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>About</title>
+        <title>EH | About</title>
         <!-- Hotjar Tracking Code for Emel Hassen blog -->
 <script>
     (function(h,o,t,j,a,r){
@@ -26,10 +25,9 @@
 </script>
     </head>
     <body>
-        <div class="logo">
-            <a href="index.html"><img src="Images/logo.png" aria-label="site logo" alt="Emel Hassen blog logo"></a>
-        </div>
         <nav>
+            <a href="index.html"><img src="Images/logo.png" aria-label="site logo" alt="Emel Hassen blog logo"></a>
+        
             <input id="menu-toggle" type="checkbox">
             <label aria-label="Navigation Menu" class='menu-button-container' for="menu-toggle">.
                 <div class="menu-button">
@@ -61,12 +59,20 @@
         </main>
          
         <footer>
-            <p>
-                Thank you for choosing to subscribing to my blog. <br>
-                I'm thrilled to have you on board!
-            </p>
-            <input type="text" placeholder="Email address" name="mail" required> 
-            <input type="submit" value="Subscribe">
+            <div class="socialmedia">
+                <h3>FOLLOW US</h3>
+                  <a href="https://www.instagram.com"><img src="images/socialmedia_insta.png" alt="link to instagram"></a>
+                  <a href="https://www.facebook.com"><img  src="images/socialmedia_face.png" alt="link to facebook"></a>
+                  <a href="https://www.twitter.com"><img  src="images/socialmedia_twitter.png" alt="link to twitter"></a>
+            </div>
+            <div class="subscription">
+                <p>
+                    Thank you for choosing to subscribing to my blog. <br>
+                    I'm thrilled to have you on board!
+                </p>
+                <input type="text" placeholder="Email address" name="mail" required> 
+                <input type="submit" value="Subscribe" onclick="alert('thank you for subscribing')">
+            </div>
         </footer>
     </body>
 </html>

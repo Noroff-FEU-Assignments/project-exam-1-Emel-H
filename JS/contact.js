@@ -22,7 +22,7 @@ function sendContactRequest(){
     }
     
     if(username.value.length > 5 && email.value.includes("@") && email.value.includes(".") && subject.value.length > 15 && message.value.length > 25){
-        text.style.color ="#DDE4D1";
+        text.style.color ="black";
         text.innerHTML = "Thank you! Your contact request was sent successfully. I will get back to you soon. "
         username.value = "";
         email.value = "";
