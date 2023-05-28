@@ -9,11 +9,19 @@ main .form{
     flex-wrap: wrap;
     justify-content:left;
 }
+main p{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
 
 main input[type=text]{
-    width: 45%;
+    width: 30%;
     padding: 1%;
-    margin: 1%;
+    margin-left: 10%;
+    margin-right: 0%;
+    margin-top: 1%;
+    margin-bottom: 1%;
     border-radius: 0.5rem;
     box-shadow: none;
     outline: none;
@@ -32,10 +40,13 @@ main input[type=button]{
 }
 
 main textarea{
-    width: 94%;
+    width: 80%;
     height: 100px;
     padding: 1%;
-    margin: 1%;
+    margin-left: 10%;
+    margin-right: 15%;
+    margin-top: 1%;
+    margin-bottom: 1%;
     border-radius: 0.5rem;
     box-shadow: none;
     outline: none;
@@ -44,7 +55,7 @@ main textarea{
 }
 @media only screen and (max-width: 812px) {
     main input[type=text]{
-        width: 94%;
+        width: 73%;
     }
     main input[type=button] {
         font-size: 3.1vw;
