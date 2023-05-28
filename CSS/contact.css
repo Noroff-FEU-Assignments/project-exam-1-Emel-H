@@ -38,6 +38,7 @@ main textarea{
     box-shadow: none;
     outline: none;
     font-size: 1.3vw;
+    font-family: 'Lato';
 }
 @media only screen and (max-width: 812px) {
     main input[type=text]{

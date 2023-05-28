@@ -26,6 +26,8 @@ function getDetailedPost(jsonReturn, container){
 function getDetailedPostImage(jsonReturn, container){
     const postImage = document.createElement("img");
     postImage.src = jsonReturn.featured_image;
+    const attachment =jsonReturn.attachment_count;
+    postImage.alt = jsonReturn.attachments[jsonReturn.post_thumbnail.ID].alt;
     container.append(postImage);
 }
 

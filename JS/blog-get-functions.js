@@ -8,6 +8,7 @@ export function addPostCardInfo(jsonReturn, postCard,i){
 function getPostImage(jsonReturn, postCard,i){
     const postImage = document.createElement("img");
     postImage.src = jsonReturn.posts[i].featured_image;
+    postImage.alt = jsonReturn.posts[i].attachments[jsonReturn.posts[i].post_thumbnail.ID].alt;
     postCard.append(postImage);
 }
 

@@ -27,7 +27,7 @@ function sendContactRequest(){
         username.value = "";
         email.value = "";
         subject.value = "";
-        message.value = "Your Message";
+        message.value = "";
     }
 
     feedbackText.innerHTML = text.outerHTML;  
