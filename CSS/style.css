@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Lato&display=swap');
 
 body{
     background: linear-gradient(
@@ -13,24 +13,32 @@ img{
 }
 
 h1{
-    font-family: 'Poppins';
-    font-size: 2.7vw;
-}
-h2{
-    font-family: 'Poppins';
+    font-family: 'Julius Sans One';
     font-size: 2.2vw;
 }
+h2{
+    font-family: 'Julius Sans One';
+    font-size: 1.7vw;
+}
 h3{
-    font-family: 'Poppins';
-    font-size: 1.5vw;
+    font-family: 'Julius Sans One';
+    font-size: 1.4vw;
     text-align: center;
 }
 p{
-    font-family: 'Mulish';
-    font-size: 1.3vw;
+    font-family: 'Lato';
+    font-size: 1.2vw;
     line-height: 150%;
     margin-left: 5%;
     margin-right: 5%;
+}
+
+header h1{
+    margin-left: 5%;
+}
+
+header h2{
+    margin-left: 5%;
 }
 
 main h1{
@@ -56,16 +64,16 @@ main {
 @media only screen and (max-width: 812px) {
     
     h1{
-        font-size: 4.0vw;
+        font-size: 3.2vw;
     }
     h2{
-        font-size: 3.8vw;
+        font-size: 2.8vw;
     }
     h3{
-        font-size: 3.4vw;
+        font-size: 2.4vw;
     }
     p{
-        font-size: 3.1vw;
+        font-size: 2.1vw;
     }
 
  
